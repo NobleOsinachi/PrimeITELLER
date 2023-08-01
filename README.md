@@ -1,4 +1,4 @@
-**Readme - Banking API**
+# PRIMEBanking API
 
 This repository contains the source code for a banking API that facilitates various banking operations. The API is designed to handle single transactions, transaction reversals, batch postings, account inquiries, name inquiries, balance inquiries, and BVN (Bank Verification Number) inquiries.
 
