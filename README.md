@@ -1,8 +1,8 @@
-# PRIMEBanking API
+# PRIME Banking API
 
 This repository contains the source code for a banking API that facilitates various banking operations. The API is designed to handle single transactions, transaction reversals, batch postings, account inquiries, name inquiries, balance inquiries, and BVN (Bank Verification Number) inquiries.
 
-**Project Structure**
+## Project Structure
 
 The banking API is built using C# and ASP.NET framework. It is organized into three main controllers:
 
@@ -18,15 +18,15 @@ The banking API is built using C# and ASP.NET framework. It is organized into th
 
 The API uses a SQL Server database to store and retrieve data related to banking operations and customer details. The connection to the database is established using Entity Framework.
 
-**Logging**
+## Logging
 
 The API incorporates NLog to log various events and activities during the processing of requests. The logs are essential for monitoring and debugging purposes.
 
-**Usage**
+## Usage
 
 To use the banking API, you can deploy it on a web server that supports ASP.NET applications. Ensure that the necessary database connectivity and configuration settings are properly set before deploying the API. The API can be consumed by making HTTP requests to its various endpoints.
 
-**Endpoints**
+## Endpoints
 
 Below are the main endpoints provided by the banking API:
 
@@ -50,14 +50,14 @@ Below are the main endpoints provided by the banking API:
 
 10. `/Prime/GetUserDetails`: Retrieves user details based on the provided user credentials.
 
-**Disclaimer**
+## Disclaimer
 
 This banking API is provided as-is and may require further customization and integration to suit specific banking systems. It is essential to ensure proper security measures are implemented to protect sensitive data and prevent unauthorized access.
 
-**Contributing**
+## Contributing
 
 If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request. Contributions to enhance the functionality and reliability of the API are welcome.
 
-**License**
+## License
 
 This banking API is released under the [MIT License](https://opensource.org/licenses/MIT). Please review the license file for detailed terms and conditions.
